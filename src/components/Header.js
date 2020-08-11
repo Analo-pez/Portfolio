@@ -8,6 +8,9 @@ function Header() {
                     <li className="menu__list--item">
                         <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                     </li>
+                    <li className="menu__list--item">
+                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+                    </li>
                 </ul>
             </nav>
             {/* <img className="page__header--profile bounce-top" src="../images/zapas.png" alt="Imagen de perfil" /> */}

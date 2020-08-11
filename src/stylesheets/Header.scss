@@ -1,6 +1,6 @@
 .page__header {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	justify-content: center;
 	background-color: $color-lightprincipal;
 	  &--profile{
 		  display:flex;
@@ -9,7 +9,6 @@
 		  width: 50%;
 		  border-radius: 50%;
 	  }
-	
 }
 .menu {
 	color: $color-principal;

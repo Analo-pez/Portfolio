@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom/cjs/react-router-dom.min';
 import Header from './Header'
 import Landing from './Landing'
+import Project from './Project'
 import Footer from './Footer'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         </Route>
         <Route path="/Home">
           <Header />
+          <Project />
           <Footer />
         </Route>
       </Switch>
