@@ -1,0 +1,44 @@
+.page__header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: $color-lightprincipal;
+	  &--profile{
+		  display:flex;
+		  align-self: center;
+		  justify-self: center;
+		  width: 50%;
+		  border-radius: 50%;
+	  }
+	
+}
+.menu {
+	color: $color-principal;
+
+	&__list {
+		display: flex;
+		justify-content: flex-start;
+		padding: 10%;
+		@media all and (min-width: 768px) {
+			padding-top: 12%;
+		}
+		@media all and (min-width: 1200px) {
+			padding: 15%;
+		}
+		
+		&--item {
+			border: 1px solid $color-principal;
+			border-radius: 10px;
+			background-color: $color-mediumprincipal;
+			color: $color-principal;
+			padding: 5px;
+			cursor: pointer;
+			@media all and (min-width: 768px) {
+				font-size:25px;
+			}
+			@media all and (min-width: 1200px) {
+				font-size:40px;
+			}
+		}
+	}
+}
+
