@@ -4,7 +4,7 @@ import ateam from "../images/ateam.png";
 import Botánical from "../images/Botánical.png";
 import RickMorty from "../images/RickMorty.png";
 import quoteGenerator from "../images/quoteGenerator.png";
-import futuramas from "../images/futuramas.png";
+import futuramas from "../images/futuramas1.png";
 import pokecards from "../images/pokecards.png";
 import seryes from "../images/seryes.png";
 import portfolio from "../images/Portfolio.png";
