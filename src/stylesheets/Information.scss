@@ -1,7 +1,8 @@
-.aboutPage{
-    background-color: $color-light;
+.infoPage{
     height: 100vh;
     &__box{
+        height: 100vh;
+        background-color: $color-light;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import zapas from "../images/zapas.png";
+import ordenador from "../images/ordenador.png";
 import Header from "./Header";
 
 function Information() {
@@ -9,11 +9,11 @@ function Information() {
             <Header />
             <div className="infoPage__box ">
                 <h1 className="infoPage__box--title ">Tecnologías</h1>
-                <img className="infoPage__box--img" src={zapas} alt="Landing del proyecto" />
+                <img className="infoPage__box--img" src={ordenador} alt="Landing del proyecto" />
+                <Link to="/Home" className="buttonHome">
+                    <button>Home</button>
+                </Link >
             </div>
-            <Link to="/Home" className="buttonHome">
-                <button>Home</button>
-            </Link >
         </section>
     );
 }

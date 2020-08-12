@@ -1,16 +1,15 @@
 import React from 'react';
-import ateam from "../images/ateam.png";
 
-function Project() {
+
+function Project(props) {
     return (
-        <article className="project">
-            <a className="project__link" href="https://analo-pez.github.io/The-A-Team-project/" title="" target="_blank" rel="noopener noreferrer">
-                <img className="project__img" src={ateam} alt="Landing del proyecto" />
+        <article className={props.classArticle}>
+            <a className="project__link" href={props.link} title={props.titleLink} target="_blank" rel="noopener noreferrer">
+                <img className="project__img" src={props.srcImg} alt={props.titleLink} />
             </a>
             <div className="project__box">
-                <h3 className="project__box--title">Web grupal</h3>
-                <p className="project__box--text">Web de presentación para dar a conocer el perfil profesional.
-					Realizado con HTML5, CSS3, SASS. </p>
+                <h3 className="project__box--title">{props.title}</h3>
+                <p className="project__box--text">{props.text} </p>
             </div>
         </article>
     );

@@ -1,12 +1,68 @@
 import React from 'react';
-// import ateam from "../images/ateam.png";
 import Project from './Project';
+import ateam from "../images/ateam.png";
 
-function ProjectList() {
+
+const ProjectList = props => {
+
     return (
         <section className="main">
-            <Project />
-            <Project />
+            <Project
+                classArticle="project project1"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project project2"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
+            <Project
+                classArticle="project"
+                link="https://analo-pez.github.io/The-A-Team-project/"
+                titleLink="A-Team web"
+                srcImg={ateam}
+                title="Web grupal"
+                text="Web de presentación para dar a conocer el perfil profesional. Realizado con HTML5, CSS3, SASS."
+            />
         </section>
     );
 }
