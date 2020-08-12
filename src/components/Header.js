@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Header() {
     return (
         <header className="page__header">
@@ -9,11 +10,14 @@ function Header() {
                         <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                     </li>
                     <li className="menu__list--item">
-                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Sobre mí</a>
+                    </li>
+                    <li className="menu__list--item">
+                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Tecnologías</a>
                     </li>
                 </ul>
             </nav>
-            {/* <img className="page__header--profile bounce-top" src="../images/zapas.png" alt="Imagen de perfil" /> */}
+            <h1 className="menu__selected">Proyectos</h1>
         </header>
     );
 }

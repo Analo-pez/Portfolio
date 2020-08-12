@@ -1,41 +1,45 @@
 .page__header {
 	display: flex;
-	justify-content: center;
-	background-color: $color-lightprincipal;
-	  &--profile{
-		  display:flex;
-		  align-self: center;
-		  justify-self: center;
-		  width: 50%;
-		  border-radius: 50%;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-around ;
+	background-image: url('../images/back1.png');
+	background-position: center;
+	background-repeat: no-repeat;
 	  }
-}
-.menu {
-	color: $color-principal;
 
+.menu {
+	&__selected {
+		margin: 20px;
+		@media all and (min-width: 768px) {
+			font-size: 30px;
+		}
+	}
 	&__list {
 		display: flex;
-		justify-content: flex-start;
-		padding: 10%;
-		@media all and (min-width: 768px) {
-			padding-top: 12%;
-		}
-		@media all and (min-width: 1200px) {
-			padding: 15%;
-		}
+		:hover {
+			background:$color-hover;
+		  }
+		// @media all and (min-width: 768px) {
+		// 	padding-top: 12%;
+		// }
+		// @media all and (min-width: 1200px) {
+		// 	padding: 15%;
+		// }
 		
 		&--item {
-			border: 1px solid $color-principal;
-			border-radius: 10px;
-			background-color: $color-mediumprincipal;
-			color: $color-principal;
+			border: 5px solid $color-dark;
+			background-color: $color-light;
+			color: $color-dark;
 			padding: 5px;
+			margin: 20px;
 			cursor: pointer;
+			
 			@media all and (min-width: 768px) {
 				font-size:25px;
 			}
 			@media all and (min-width: 1200px) {
-				font-size:40px;
+				font-size:30px;
 			}
 		}
 	}

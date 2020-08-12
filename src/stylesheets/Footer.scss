@@ -4,12 +4,18 @@
     bottom: 0;
     width: 100vw;
     padding: 1rem;
-    background-color: $color-lightprincipal;
+    	
+    background-image: url('../images/back1.png');
+    background-position: center;
+    background-repeat: no-repeat;
     &--icons{
       display: flex;
       justify-content: flex-end;
       padding-right: 15%;
-      color: $color-principal;
+      color: $color-dark;
+      :hover {
+        color:$color-hover;
+      }
       @media all and (min-width: 768px) {
         font-size: 20px;
         padding-right: 25%;
@@ -21,10 +27,6 @@
         .fas {
           display: inline-block;
           transition: color ease 0.5s;
-        }
-  
-        .fab:hover, .fas:hover {
-          color: black;
         }
   
         .fab:after {
