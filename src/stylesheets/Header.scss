@@ -11,8 +11,9 @@
 .menu {
 	&__selected {
 		margin: 20px;
+		text-transform: uppercase;
 		@media all and (min-width: 768px) {
-			font-size: 30px;
+			font-size: 40px;
 		}
 	}
 	&__list {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -9,12 +10,16 @@ function Header() {
                     <li className="menu__list--item">
                         <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                     </li>
-                    <li className="menu__list--item">
-                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Sobre mí</a>
-                    </li>
-                    <li className="menu__list--item">
-                        <a href="https://adalab.es/" target="_blank" rel="noopener noreferrer">Tecnologías</a>
-                    </li>
+                    <Link to="/About" className="aboutRoute">
+                        <li className="menu__list--item">
+                            <p>Sobre mí</p>
+                        </li>
+                    </Link>
+                    <Link to="/Information" className="infoRoute">
+                        <li className="menu__list--item">
+                            <p>Tecnologías</p>
+                        </li>
+                    </Link>
                 </ul>
             </nav>
             <h1 className="menu__selected">Proyectos</h1>
