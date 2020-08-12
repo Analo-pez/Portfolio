@@ -1,8 +1,17 @@
-.project1 {
+.main{
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+.project1, .project3, .project5, .project7 {
     background: #9796f0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.project2 {
+.project2,.project4, .project6, .project8 {
     border: 5px solid $color-dark;
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
