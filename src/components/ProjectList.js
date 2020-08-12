@@ -7,7 +7,7 @@ import quoteGenerator from "../images/quoteGenerator.png";
 import futuramas from "../images/futuramas.png";
 import pokecards from "../images/pokecards.png";
 import seryes from "../images/seryes.png";
-import zapas from "../images/zapas.png";
+import portfolio from "../images/Portfolio.png";
 
 
 
@@ -75,11 +75,11 @@ const ProjectList = props => {
             />
             <Project
                 classArticle="project project8"
-                link="https://analo-pez.github.io/The-A-Team-project/"
-                titleLink="A-Team web"
-                srcImg={zapas}
+                link="./"
+                titleLink="Portfolio web"
+                srcImg={portfolio}
                 title="Portfolio"
-                text="Portfolio profesional realizado con React, en el que se implementa el uso de React Router"
+                text="¡Este mismo! Portfolio profesional realizado con React, en el que se implementa el uso de React Router"
             />
         </section>
     );

@@ -1,12 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import imageAna from "../images/imageAna.png";
 import Header from "./Header";
+import Footer from "./Footer";
 
-function About() {
+function About(props) {
     return (
         <section className="aboutPage">
-            <Header />
+            <Header
+                route1="./Information"
+                link1="Tecnologías"
+                route2="./Home"
+                link2="Proyectos"
+                sectionName="Sobre mí"
+            />
             <div className="aboutPage__box wrapper2">
                 <img className="aboutPage__box--img" src={imageAna} alt="Landing del proyecto" />
                 <section className="aboutPage__box--text">
@@ -24,9 +30,7 @@ function About() {
                     mi creatividad al máximo.  ¡Quiero aportar lo mejor de mí y recalcular
 			mis límites!</p>
                 </section>
-                <Link to="/Home" className="buttonHome">
-                    <button>Home</button>
-                </Link >
+                <Footer />
             </div>
         </section>
     );

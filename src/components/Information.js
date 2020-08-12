@@ -1,19 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ordenador from "../images/ordenador.png";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Information() {
     return (
         <section className="infoPage">
-            <Header />
+            <Header
+                route1="./Home"
+                link1="Proyectos"
+                route2="./About"
+                link2="Sobre mí"
+                sectionName="Tecnologías"
+            />
             <div className="infoPage__box ">
-                <h1 className="infoPage__box--title ">Tecnologías</h1>
                 <img className="infoPage__box--img" src={ordenador} alt="Landing del proyecto" />
-                <Link to="/Home" className="buttonHome">
-                    <button>Home</button>
-                </Link >
             </div>
+            <Footer />
         </section>
     );
 }

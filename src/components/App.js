@@ -15,7 +15,13 @@ function App() {
           <Landing />
         </Route>
         <Route path="/Home">
-          <Header />
+          <Header
+            route1="./About"
+            link1="Sobre mí"
+            route2="./Information"
+            link2="Tecnologías"
+            sectionName="Poyectos"
+          />
           <ProjectList />
           <Footer />
         </Route>
