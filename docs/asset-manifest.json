@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.e9c7dabe.chunk.css",
-    "main.js": "./static/js/main.c6c1677c.chunk.js",
-    "main.js.map": "./static/js/main.c6c1677c.chunk.js.map",
+    "main.css": "./static/css/main.75dfa00a.chunk.css",
+    "main.js": "./static/js/main.a82c4602.chunk.js",
+    "main.js.map": "./static/js/main.a82c4602.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.2d1a9480.js",
     "runtime-main.js.map": "./static/js/runtime-main.2d1a9480.js.map",
-    "static/js/2.4a25a832.chunk.js": "./static/js/2.4a25a832.chunk.js",
-    "static/js/2.4a25a832.chunk.js.map": "./static/js/2.4a25a832.chunk.js.map",
+    "static/js/2.13dc1d22.chunk.js": "./static/js/2.13dc1d22.chunk.js",
+    "static/js/2.13dc1d22.chunk.js.map": "./static/js/2.13dc1d22.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.10482d597664a4950042377180e2426e.js": "./precache-manifest.10482d597664a4950042377180e2426e.js",
+    "precache-manifest.1a05f015e52f73fbf731efc2202b5c06.js": "./precache-manifest.1a05f015e52f73fbf731efc2202b5c06.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.e9c7dabe.chunk.css.map": "./static/css/main.e9c7dabe.chunk.css.map",
-    "static/js/2.4a25a832.chunk.js.LICENSE.txt": "./static/js/2.4a25a832.chunk.js.LICENSE.txt",
+    "static/css/main.75dfa00a.chunk.css.map": "./static/css/main.75dfa00a.chunk.css.map",
+    "static/js/2.13dc1d22.chunk.js.LICENSE.txt": "./static/js/2.13dc1d22.chunk.js.LICENSE.txt",
     "static/media/Ana CV web Front-end.pdf": "./static/media/Ana CV web Front-end.ca6ce65f.pdf",
     "static/media/Botánical.png": "./static/media/Botánical.1f3ee641.png",
     "static/media/Portfolio.png": "./static/media/Portfolio.99151d73.png",
@@ -23,12 +23,13 @@
     "static/media/ordenador.png": "./static/media/ordenador.4d414ff3.png",
     "static/media/pokecards.png": "./static/media/pokecards.c2b6e5ae.png",
     "static/media/quoteGenerator.png": "./static/media/quoteGenerator.5d68ec3e.png",
-    "static/media/seryes.png": "./static/media/seryes.7566fc96.png"
+    "static/media/seryes.png": "./static/media/seryes.7566fc96.png",
+    "static/media/tecnos.jpg": "./static/media/tecnos.d1e23725.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d1a9480.js",
-    "static/js/2.4a25a832.chunk.js",
-    "static/css/main.e9c7dabe.chunk.css",
-    "static/js/main.c6c1677c.chunk.js"
+    "static/js/2.13dc1d22.chunk.js",
+    "static/css/main.75dfa00a.chunk.css",
+    "static/js/main.a82c4602.chunk.js"
   ]
 }
