@@ -1,5 +1,6 @@
 import React from 'react';
 import ordenador from "../images/ordenador.png";
+import tecnos from "../images/tecnos.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -14,6 +15,7 @@ function Information() {
                 sectionName="Tecnologías"
             />
             <div className="infoPage__box ">
+                <img className="infoPage__box--img2" src={tecnos} alt="Landing del proyecto" />
                 <img className="infoPage__box--img" src={ordenador} alt="Landing del proyecto" />
             </div>
             <Footer />
