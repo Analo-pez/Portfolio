@@ -13,6 +13,11 @@
             width: 600px;
             height: 600px;
 		}
+            @media all and (min-width: 1200px) {
+            margin-top: 0;
+            width: 800px;
+            height: 800px;
+		}
         }
         &--img2{
             margin-top: 34%;
@@ -22,9 +27,14 @@
             position: absolute;
             z-index: 999;
             @media all and (min-width: 768px) {
-            margin-top: 0;
-            width: 550px;
-            height: 550px;
+            margin-top: 13%;
+            width: 445px;
+            height: 260px;
+        }
+        @media all and (min-width: 1200px) {
+            margin-top: 11%;
+            width: 580px;
+            height: 340px;
 		}
         }
     }
