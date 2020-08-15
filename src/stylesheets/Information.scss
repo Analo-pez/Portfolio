@@ -8,11 +8,19 @@
             width: 350px;
             height: 350px;
             position: relative;
+            @media all and (min-width: 600px) {
+            margin-top: 25%;
+            }
             @media all and (min-width: 768px) {
             margin-top: 0;
             width: 600px;
             height: 600px;
-		}
+            }
+            @media all and (min-width: 1000px) {
+            margin-top: 5%;
+            width: 700px;
+            height: 700px;
+             }
             @media all and (min-width: 1200px) {
             margin-top: 0;
             width: 800px;
@@ -30,6 +38,11 @@
             margin-top: 13%;
             width: 445px;
             height: 260px;
+        }
+        @media all and (min-width: 1000px) {
+            margin-top: 16%;
+            width: 500px;
+            height: 300px;
         }
         @media all and (min-width: 1200px) {
             margin-top: 11%;
