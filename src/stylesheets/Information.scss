@@ -26,6 +26,11 @@
             width: 800px;
             height: 800px;
 		}
+            @media all and (min-width: 1400px) {
+            margin-top: 2%;
+            width: 800px;
+            height: 800px;
+		}
         }
         &--img2{
             margin-top: 34%;
