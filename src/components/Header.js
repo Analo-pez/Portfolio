@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AnaFrontEndCV from "./Ana CV web Front-end.pdf"
+import AnaFrontEndCV from "../images/Ana CV Front-end.pdf"
 
 
 const Header = props => {

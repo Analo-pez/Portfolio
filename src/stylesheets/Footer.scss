@@ -4,21 +4,19 @@
     bottom: 0;
     width: 100vw;
     padding: 1rem;
-    	
     background-image: url('../images/back1.png');
     background-position: center;
     background-repeat: no-repeat;
     &--icons{
       display: flex;
       justify-content: flex-end;
-      padding-right: 15%;
       color: $color-dark;
       :hover {
         color:$color-hover;
       }
       @media all and (min-width: 768px) {
         font-size: 20px;
-        padding-right: 25%;
+       
       }
       @media all and (min-width: 1200px) {
         font-size: 30px;
