@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.9a9546c2.chunk.css",
+    "main.css": "./static/css/main.75dfa00a.chunk.css",
     "main.js": "./static/js/main.a82c4602.chunk.js",
     "main.js.map": "./static/js/main.a82c4602.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.2d1a9480.js",
@@ -8,9 +8,9 @@
     "static/js/2.13dc1d22.chunk.js": "./static/js/2.13dc1d22.chunk.js",
     "static/js/2.13dc1d22.chunk.js.map": "./static/js/2.13dc1d22.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f0cf7569057f3f9c2894d3b99985af71.js": "./precache-manifest.f0cf7569057f3f9c2894d3b99985af71.js",
+    "precache-manifest.1a05f015e52f73fbf731efc2202b5c06.js": "./precache-manifest.1a05f015e52f73fbf731efc2202b5c06.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.9a9546c2.chunk.css.map": "./static/css/main.9a9546c2.chunk.css.map",
+    "static/css/main.75dfa00a.chunk.css.map": "./static/css/main.75dfa00a.chunk.css.map",
     "static/js/2.13dc1d22.chunk.js.LICENSE.txt": "./static/js/2.13dc1d22.chunk.js.LICENSE.txt",
     "static/media/Ana CV web Front-end.pdf": "./static/media/Ana CV web Front-end.ca6ce65f.pdf",
     "static/media/Botánical.png": "./static/media/Botánical.1f3ee641.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.2d1a9480.js",
     "static/js/2.13dc1d22.chunk.js",
-    "static/css/main.9a9546c2.chunk.css",
+    "static/css/main.75dfa00a.chunk.css",
     "static/js/main.a82c4602.chunk.js"
   ]
 }
