@@ -6,7 +6,17 @@
     @media all and (min-width: 768px) {
         margin:50px;
     }
-       
+       &__codeLink {
+           text-align: center;
+           border: 2px solid $color-dark;
+           color: white;
+           background-color: $color-dark;
+           width: 80px;
+           height: 30;
+           @media all and (min-width: 768px) {
+            order: 1;
+        }
+       }
         &__box {
             margin: 20px ;
             text-align: center;
@@ -25,7 +35,7 @@
             width: 150px;
             height: 130px;
             margin:20px;
-            cursor: pointer;
+            cursor: url('../images/cohete.svg'), pointer;
             &:hover{
             animation-name: shake; 
             animation-duration: 0.6s;
