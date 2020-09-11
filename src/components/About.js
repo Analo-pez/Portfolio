@@ -3,6 +3,7 @@ import imageAna from "../images/imageAna.png";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 function About(props) {
     return (
         <section className="aboutPage">
