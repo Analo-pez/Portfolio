@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3244a20e68d9648ad2f661dba6da53d5",
+    "revision": "746376c50bb39b92ee6fc2627e7156a1",
     "url": "./index.html"
   },
   {
-    "revision": "3bd722e774bf30550be4",
-    "url": "./static/css/main.1f4676b2.chunk.css"
+    "revision": "53ad0d7317e2713a193e",
+    "url": "./static/css/main.740232ae.chunk.css"
   },
   {
     "revision": "399517466d57d64c21a6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.29c0d256.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bd722e774bf30550be4",
-    "url": "./static/js/main.a4130dae.chunk.js"
+    "revision": "53ad0d7317e2713a193e",
+    "url": "./static/js/main.6c2f3697.chunk.js"
   },
   {
     "revision": "e209bbc62f631d29b29a",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/quoteGenerator.5d68ec3e.png"
   },
   {
-    "revision": "7566fc96a7f17fc55915149c12814884",
-    "url": "./static/media/seryes.7566fc96.png"
+    "revision": "d52430ecf2e2acfae4ebefce890f181d",
+    "url": "./static/media/svelte-films.d52430ec.png"
   },
   {
     "revision": "d1e237251e9751c12208fe0dd1f34af7",
