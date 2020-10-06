@@ -6,7 +6,8 @@ import RickMorty from "../images/RickMorty.png";
 import quoteGenerator from "../images/quoteGenerator.png";
 import futuramas from "../images/futuramas1.png";
 import pokecards from "../images/pokecards.png";
-import seryes from "../images/seryes.png";
+// import seryes from "../images/seryes.png";
+import svelteFilms from "../images/svelte-films.png";
 import portfolio from "../images/Portfolio.png";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -92,7 +93,7 @@ const ProjectList = props => {
                 con REACT"
                 />
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInRight" onChange={ShowScroll}>
+            {/* <ScrollAnimation animateIn="fadeInRight" onChange={ShowScroll}>
                 <Project
                     classArticle="project project7"
                     link="http://analo-pez.github.io/SerYes-finder/"
@@ -102,6 +103,17 @@ const ProjectList = props => {
                     title="Ser¡yes!"
                     text="Buscador de series realizado utilizando API´s públicas y
                 desarrollado con JavaScript, HTML5, CSS3, SASS"
+                />
+            </ScrollAnimation> */}
+            <ScrollAnimation animateIn="fadeInRight" onChange={ShowScroll}>
+                <Project
+                    classArticle="project project7"
+                    link="https://app-svelte-films.vercel.app/"
+                    titleLink="Ser-yes web"
+                    srcImg={svelteFilms}
+                    codeUrl="https://github.com/Analo-pez/App-Svelte-Films"
+                    title="Svelte-Films"
+                    text="Aplicación de películas favoritas realizada utilizando API´s públicas y compilado con Svelte"
                 />
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInLeft" onChange={ShowScroll}>
