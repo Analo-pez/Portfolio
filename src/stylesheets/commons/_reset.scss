@@ -353,8 +353,8 @@ template {
 * {
   box-sizing: border-box;
   color: inherit;
-  list-style-type: none;
-  text-decoration: none;
+  list-style-type: none !important;
+  text-decoration: none !important;
   margin: 0px;
   padding: 0px;
   -moz-appearance: none;
@@ -368,3 +368,8 @@ button {
   border: none;
   background: none;
 }
+
+
+  p {
+    margin-bottom: 0px !important;
+  }

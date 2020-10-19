@@ -18,14 +18,9 @@
 	}
 	&__list {
 		display: flex;
-		
-		// @media all and (min-width: 768px) {
-		// 	padding-top: 12%;
-		// }
-		// @media all and (min-width: 1200px) {
-		// 	padding: 15%;
-		// }
-		
+		a:active, a:visited, a:link {
+			color: initial;
+			}
 		&--item {
 			border: 5px solid $color-dark;
 			background-color: $color-light;
@@ -35,8 +30,9 @@
 			cursor: pointer;
 			&:hover {
 				background:$color-hover;
+				color: $color-dark;
 			  }
-			
+						
 			
 			@media all and (min-width: 768px) {
 				font-size:25px;

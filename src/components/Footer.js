@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer className="page__footer">
-            <p className="page__footer--text wrapper">Portfolio v0.9 beta</p>
+            {/* <p className="page__footer--text wrapper">Portfolio v0.9 beta</p> */}
             <div className="page__footer--icons wrapper">
                 <a href="https://twitter.com/DeveloperAna" title="Twitter" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter icons"></i>
