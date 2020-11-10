@@ -20,7 +20,7 @@ function App() {
             link1="Sobre mí"
             route2="./Information"
             link2="Tecnologías"
-            sectionName="Poyectos"
+            sectionName="Proyectos"
           />
           <ProjectList />
           <Footer />
