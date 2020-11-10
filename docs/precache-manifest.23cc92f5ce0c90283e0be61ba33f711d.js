@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "145e1d4cac5fa44cc3cada23ef0bb652",
+    "revision": "02c7cebf1770648c001953f3ab5bb0f2",
     "url": "./index.html"
   },
   {
-    "revision": "f7bf4c7bcfd007bf7801",
-    "url": "./static/css/main.57daf602.chunk.css"
+    "revision": "b83294cd1e1dfd7a242c",
+    "url": "./static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "1aef7e22b128fbeeeebb",
-    "url": "./static/js/2.13dc1d22.chunk.js"
+    "revision": "c876194ce684eb8a2540",
+    "url": "./static/css/main.03afdd60.chunk.css"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.13dc1d22.chunk.js.LICENSE.txt"
+    "revision": "b83294cd1e1dfd7a242c",
+    "url": "./static/js/2.951a3f90.chunk.js"
   },
   {
-    "revision": "f7bf4c7bcfd007bf7801",
-    "url": "./static/js/main.51610be8.chunk.js"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "./static/js/2.951a3f90.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "c876194ce684eb8a2540",
+    "url": "./static/js/main.9f3d31e8.chunk.js"
   },
   {
     "revision": "e209bbc62f631d29b29a",
@@ -56,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/imageAna.6c8e96fa.png"
   },
   {
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "./static/media/logo.5d5d9eef.svg"
+  },
+  {
     "revision": "4d414ff3308eafb306ba5600a00b7d94",
     "url": "./static/media/ordenador.4d414ff3.png"
   },
@@ -72,7 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/seryes.7566fc96.png"
   },
   {
-    "revision": "d1e237251e9751c12208fe0dd1f34af7",
-    "url": "./static/media/tecnos.d1e23725.jpg"
+    "revision": "a2223517b057676f47c75d7c836a6511",
+    "url": "./static/media/tecnos1.a2223517.png"
+  },
+  {
+    "revision": "a331391efb72adb16370799e4e977221",
+    "url": "./static/media/tecnos2.a331391e.png"
+  },
+  {
+    "revision": "09691cb7ae0196e7911ea7b25406706f",
+    "url": "./static/media/tecnos3.09691cb7.png"
   }
 ]);
