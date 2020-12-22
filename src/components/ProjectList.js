@@ -9,6 +9,9 @@ import pokecards from "../images/pokecards.png";
 // import seryes from "../images/seryes.png";
 import svelteFilms from "../images/svelte-films.png";
 import portfolio from "../images/Portfolio.png";
+import todoList from "../images/App-tareas.jpg";
+import issuesApp from "../images/Issues.jpg";
+
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function ShowScroll(visible) {
@@ -40,12 +43,12 @@ const ProjectList = props => {
             <ScrollAnimation animateIn="fadeInLeft" onChange={ShowScroll}>
                 <Project
                     classArticle="project project2"
-                    link="http://analo-pez.github.io/Characters-Rick-y-Morty/"
-                    titleLink="Characters Rick y Morty web"
-                    srcImg={RickMorty}
-                    codeUrl="https://github.com/Analo-pez/Characters-Rick-y-Morty"
-                    title="Personajes Rick y Morty"
-                    text="App web diseñada con React. Conectada a una API pública de personajes de la serie Rick y Morty"
+                    link="http://analo-pez.github.io/app-angular/"
+                    titleLink="App-angular"
+                    srcImg={issuesApp}
+                    codeUrl="https://github.com/Analo-pez/App-angular"
+                    title="Buscador de Issues"
+                    text="App web diseñada con Angular. Permite buscar dentro de un reporitorio de Github, devolviendo un listado de issues"
                 />
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInRight" onChange={ShowScroll}>
@@ -59,6 +62,31 @@ const ProjectList = props => {
                     text="Proyecto de código heredado realizado en equipo utilizando REACT"
                 />
             </ScrollAnimation>
+
+            <ScrollAnimation animateIn="fadeInLeft" onChange={ShowScroll}>
+                <Project
+                    classArticle="project project2"
+                    link="http://analo-pez.github.io/Characters-Rick-y-Morty/"
+                    titleLink="Characters Rick y Morty web"
+                    srcImg={RickMorty}
+                    codeUrl="https://github.com/Analo-pez/Characters-Rick-y-Morty"
+                    title="Personajes Rick y Morty"
+                    text="App web diseñada con React. Conectada a una API pública de personajes de la serie Rick y Morty"
+                />
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInRight" onChange={ShowScroll}>
+                <Project
+                    classArticle="project project3"
+                    link="https://analo-pez.github.io/To-Do-List/tabs/tab1"
+                    titleLink="To do List"
+                    srcImg={todoList}
+                    codeUrl="https://github.com/Analo-pez/To-Do-List"
+                    title="To Do List"
+                    text="Proyecto realizado utilizando IONIC. Con esta app puedes añadir tareas y gestionarlas, editando, eliminando y creando nuevas"
+                />
+            </ScrollAnimation>
+
+
             <ScrollAnimation animateIn="fadeInLeft" onChange={ShowScroll}>
                 <Project
                     classArticle="project project4"
