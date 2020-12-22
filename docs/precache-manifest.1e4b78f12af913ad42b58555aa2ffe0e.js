@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37fc6c56d943b9432ed994b737741a0f",
+    "revision": "70ec2f3129448f79b16c0cf7c78109b9",
     "url": "./index.html"
   },
   {
-    "revision": "9297e47b2b67ee07cfdc",
+    "revision": "e5e5dceadc431294f10e",
     "url": "./static/css/main.740232ae.chunk.css"
   },
   {
-    "revision": "399517466d57d64c21a6",
-    "url": "./static/js/2.29c0d256.chunk.js"
+    "revision": "fd856f3ac68327997662",
+    "url": "./static/js/2.c5ae5c56.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.29c0d256.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.c5ae5c56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9297e47b2b67ee07cfdc",
-    "url": "./static/js/main.bd0737d4.chunk.js"
+    "revision": "e5e5dceadc431294f10e",
+    "url": "./static/js/main.ffb5537b.chunk.js"
   },
   {
     "revision": "e209bbc62f631d29b29a",
     "url": "./static/js/runtime-main.2d1a9480.js"
   },
   {
-    "revision": "e2cdfe371647894845cbc37e99c30210",
-    "url": "./static/media/Ana CV Front-end.e2cdfe37.pdf"
+    "revision": "f08cf0b79fcac2514fc858e50f5ff1e5",
+    "url": "./static/media/Ana CV Front-end.f08cf0b7.pdf"
+  },
+  {
+    "revision": "a23f3887a9da7fa9e758e56f3037e0d7",
+    "url": "./static/media/App-tareas.a23f3887.jpg"
   },
   {
     "revision": "1f3ee641d3cdf69f9565ccce6e85ed30",
     "url": "./static/media/Botánical.1f3ee641.png"
+  },
+  {
+    "revision": "b21d8351022b38cbfb4f689e95b36086",
+    "url": "./static/media/Issues.b21d8351.jpg"
   },
   {
     "revision": "99151d7325c890c33e100114fa632571",
