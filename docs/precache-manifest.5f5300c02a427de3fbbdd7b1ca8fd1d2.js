@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70ec2f3129448f79b16c0cf7c78109b9",
+    "revision": "6690fcff8608178d6697ffd24d72c5be",
     "url": "./index.html"
   },
   {
-    "revision": "e5e5dceadc431294f10e",
+    "revision": "da7b965801ae4705cbe8",
     "url": "./static/css/main.740232ae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.c5ae5c56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5e5dceadc431294f10e",
-    "url": "./static/js/main.ffb5537b.chunk.js"
+    "revision": "da7b965801ae4705cbe8",
+    "url": "./static/js/main.a66f40f0.chunk.js"
   },
   {
     "revision": "e209bbc62f631d29b29a",
@@ -28,16 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Ana CV Front-end.f08cf0b7.pdf"
   },
   {
-    "revision": "a23f3887a9da7fa9e758e56f3037e0d7",
-    "url": "./static/media/App-tareas.a23f3887.jpg"
-  },
-  {
     "revision": "1f3ee641d3cdf69f9565ccce6e85ed30",
     "url": "./static/media/Botánical.1f3ee641.png"
-  },
-  {
-    "revision": "b21d8351022b38cbfb4f689e95b36086",
-    "url": "./static/media/Issues.b21d8351.jpg"
   },
   {
     "revision": "99151d7325c890c33e100114fa632571",
@@ -64,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/imageAna.6c8e96fa.png"
   },
   {
+    "revision": "0906938904336377a74d33ff39d238f6",
+    "url": "./static/media/issues.09069389.png"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "./static/media/logo.5d5d9eef.svg"
   },
@@ -86,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d1e237251e9751c12208fe0dd1f34af7",
     "url": "./static/media/tecnos.d1e23725.jpg"
+  },
+  {
+    "revision": "f82ee0feaf83a0014efa5993f4e26e55",
+    "url": "./static/media/toDoList.f82ee0fe.png"
   }
 ]);
