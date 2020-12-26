@@ -9,8 +9,8 @@ import pokecards from "../images/pokecards.png";
 // import seryes from "../images/seryes.png";
 import svelteFilms from "../images/svelte-films.png";
 import portfolio from "../images/Portfolio.png";
-import todoList from "../images/App-tareas.jpg";
-import issuesApp from "../images/Issues.jpg";
+import todoList from "../images/toDoList.png";
+import issuesApp from "../images/issues.png";
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
